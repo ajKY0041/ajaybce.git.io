@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* overflow-y : hidden */
+}
+header{
+    height: 58px;
+    background:var(--main-bg-color);
+    /* border: 2px solid red; */
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    /* border-color: black; */
+}
+.logo img{
+    width: 95px;
+    padding: 0 25px;
+    cursor: pointer;
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: rgb(48, 8, 247);
+    font-weight: bolder;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 22vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin: 0 0.1px 0 60px;
+    border-color: black;
+    text-align: center;
+    
+    
+
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+}
+.btn{
+    /* padding: 3px; */
+    margin: 2px;
+    width: 47px;
+    border-color: rgb(7, 7, 7);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+.btn:hover{
+    /* padding: 1px;
+    width: 47px; */
+    background: rgb(4, 245, 16);
+    font-weight: bolder;
+}
+
+
+
+    .slider{
+        /* margin: 0 40px;
+        width: 85vw;
+        height: 20px; */
+        display: flex;
+        overflow: hidden;
+        /* align-items: center; */
+        height: 300px; 
+        
+        
+        
+    }
+    .slider img{
+        width: 68vw;
+        height: 32vh;
+        padding: 0 253px;
+        margin: 5px 0;
+        
+    }
+    .cardmanager{
+        min-height: calc(10vh - 300px - 10vh);
+        display: flex;
+        /* background-color: crimson; */
+    }
+    .cardmanager1{
+        display: flex;
+        overflow-x : hidden;
+        height:45vh;
+        width: 100vw;
+        background-color: white;
+
+    }
+        .card{
+            /* background-color: cyan; */
+            margin: 0px 0px;
+            max-width: 13vw;
+            max-height: 70vh;
+            /* background: rgb(157, 248, 172); */
+            
+        }
+    .card h2{
+        background: rgb(250, 240, 240);
+        margin: 0px 0px;
+        padding: 3px;
+        height: 6vh;
+        width: 13vw;
+    }
+    .carditem{
+        display: flex;
+        /* justify-content: flex-start; */
+    }
+    .carditem img{
+        height: 25vh;
+        width: 13vw;
+        margin: 5px 3px;
+        
+    }
+    .lines{
+        margin: 0px 41px;
+    }
+    .card2{
+        /* background-color: cyan; */
+        /* margin: -200px 213px; */
+        max-width: 13vw;
+        max-height: 70vh;
+        margin: 0px;
+        padding: 0px;
+        /* background: rgb(157, 248, 172); */
+        
+    }
+    .card2 h2{
+        background: rgb(250, 240, 240);
+        margin: 0px 0px;
+        padding: 3px;
+        height: 6vh;
+        width: 13vw;
+    }
+    .carditem2{
+        display: flex;
+        align-items: stretch;
+    }
+    .carditem2 img{
+        height: 25vh;
+        width: 13vw;
+        margin: 5px 3px;
+        
+    }
+    .lines2{
+        margin: 0px 41px;
+    }
+    .card3{
+        /* margin: -201px 426px; */
+        max-width: 13vw;
+        max-height: 70vh;
+        /* background: rgb(157, 248, 172); */
+        
+    }
+    .card3 h2{
+        background: rgb(250, 240, 240);
+        margin: 0px 0px;
+        padding: 3px;
+        height: 6vh;
+        width: 13vw;
+    }
+    .carditem3{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .carditem3 img{
+        height: 25vh;
+        width: 13vw;
+        margin: 5px -9px;
+        
+    }
+    .lines3{
+        margin: 0px 41px;
+    }
+    .card4{
+        /* margin: -1px 639px; */
+        max-width: 13vw;
+        max-height: 70vh;
+        /* background: rgb(157, 248, 172); */
+        
+    }
+    .card4 h2{
+        background: rgb(250, 240, 240);
+        margin: 0px 0px;
+        padding: 3px;
+        height: 6vh;
+        width: 13vw;
+    }
+    .carditem4{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .carditem4 img{
+        height: 25vh;
+        width: 13vw;
+        margin: 5px -15px;
+        
+    }
+    .lines4{
+        margin: 0px 41px;
+    }
+    .card5{
+        /* margin: -1px 639px; */
+        max-width: 13vw;
+        max-height: 70vh;
+        /* background: rgb(157, 248, 172); */
+        
+    }
+    .card5 h2{
+        background: rgb(250, 240, 240);
+        margin: 0px 0px;
+        padding: 3px;
+        height: 6vh;
+        width: 13vw;
+    }
+    .carditem5{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .carditem5 img{
+        height: 25vh;
+        width: 13vw;
+        margin: 5px -21px;
+        
+    }
+    .lines5{
+        margin: 0px 41px;
+    }
+    .card6{
+        /* margin: -1px 639px; */
+        max-width: 13vw;
+        max-height: 70vh;
+        /* background: rgb(157, 248, 172); */
+        
+    }
+    .card6 h2{
+        background: rgb(250, 240, 240);
+        margin: 0px 7px;
+        padding: 2px 0px;
+        height: 6vh;
+        width: 13vw;
+    }
+    .carditem6{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .carditem6 img{
+        height: 25vh;
+        width: 13vw;
+        margin: 6px -7px;
+        
+    }
+    .lines6{
+        margin: 0px 41px;
+    }
+    .card7{
+        /* margin: -1px 639px; */
+        max-width: 13vw;
+        max-height: 70vh;
+        /* background: rgb(157, 248, 172); */
+        
+    }
+    .card7 h2{
+        background: rgb(250, 240, 240);
+        margin: 0px 7px;
+        padding: 2px 0px;
+        height: 6vh;
+        width: 13vw;
+    }
+    .carditem7{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .carditem7 img{
+        height: 25vh;
+        width: 13vw;
+        margin: 6px -7px;
+        
+    }
+    .lines7{
+        margin: 0px 41px;
+    }
+   
+    
+
+footer{
+    height: 10vh;
+    background-color:var(--main-bg-color);
+    color: rgb(248, 248, 250);
+    font-family: 'Lato', sans-serif;
+
+}
