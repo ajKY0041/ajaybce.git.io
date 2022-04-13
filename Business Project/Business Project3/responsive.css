@@ -1,0 +1,106 @@
+@media(max-width:1560px){
+    .heading{
+        text-align: center;
+        width: 99vw;
+    }
+}
+@media(max-width:1180px){
+    .button{
+        width: 7vw;
+    }
+    .button button{
+        width: 6vw;
+    }
+    .heading{
+        text-align: center;
+        width: 99vw;
+    }
+}
+@media(max-width:900px){
+    .button{
+        width: 9vw;
+    }
+    .button button{
+        width: 8vw;
+    }
+    .help h1{
+        font-size: 25px;
+    }
+}
+@media(max-width:644px){
+    .button{
+        width: 15vw;
+    }
+    .button button{
+        width: 14vw;
+    }
+}
+@media(max-width:452px){
+    .button{
+        width:17vw;
+    }
+    .button button{
+        width: 16vw;
+    }
+    .help h1{
+        font-size: 15px;
+    }
+}
+@media(max-width:390px){
+    .container2 ul li{
+       display: flex;
+       flex-direction: column;
+       float: none;
+       margin:2.9vh 0vw;
+       width: 95vw;
+       text-align: center;
+    }
+    .container3 ul li{
+       display: flex;
+       flex-direction: column;
+       float: none;
+       margin:2.9vh 0vw;
+       width: 95vw;
+       text-align: center;
+    }
+    .container4 ul li{
+       display: flex;
+       flex-direction: column;
+       float: none;
+       margin:2.9vh 0vw;
+       width: 95vw;
+       text-align: center;
+    }
+    .container5 ul li{
+       display: flex;
+       flex-direction: column;
+       float: none;
+       margin:2.9vh 0vw;
+       width: 95vw;
+       text-align: center;
+    }
+    .container6 ul li{
+       display: flex;
+       flex-direction: column;
+       float: none;
+       margin:2.9vh 0vw;
+       width: 95vw;
+       text-align: center;
+    }
+}
+@media(max-width:288px){
+    .button{
+        width:25vw;
+    }
+    .button button{
+        width: 24vw;
+    }
+    .help h1{
+        font-size: 11px;
+    }
+    .heading{
+        width: 99vw;
+        font-size: 12px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:rgb(252, 181, 193);
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    /* padding: 50px; */
+    }
+    .image{
+       background-color:white;
+       display: flex;
+       justify-content: center;
+    }
+    .image{
+        height: 100%;
+        margin:auto;
+        border-radius: 45px;
+        /* border-color:white; */
+        /* border-width:50px; */
+        /* border-style: double; */
+    }
+    img{
+        height: 100%;
+        margin:auto;
+        /* padding: 2px; */
+        border-radius: 45px;
+        /* border-color:black;
+        border-width: 5px; */
+        
+    }
+    .explanation1{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        font-size: 25px;
+        color: white;
+        background-color: black;
+    }
+   
+   .container2{
+       display: flex;
+       justify-content: center;
+       height: 40vh;
+       background-color:rgb(243, 252, 203);
+   }
+   .container3{
+       width: 30vw;
+       height: 35vh;
+       display: flex;
+       background-color:rgb(253, 253, 252);
+       justify-content: center;
+       margin: 13px;
+       /* border-color:rgb(143, 140, 140); */
+       border-radius: 8px;
+       /* border-width: 1px; */
+       /* border-style:solid; */
+       border-style:outset;
+
+   }
+   .container3:hover{
+    /* border-color: rgb(250, 250, 242); */
+   }
+    .heading1{
+        display: flex;
+        justify-content: center;
+        margin: 1px;
+        padding: 20px;
+        font-size: 20px;
+        color: rgba(0, 0, 255, 0.918);
+    }
+    .explanation2paragraph1{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .heading2{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .explanation2paragraph2{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .heading3{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .explanation2{
+        margin: 5px;
+    }
+    .explanation3{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        font-size: 20px;
+        color:black;
+    }
+    .explanation4{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin: 15px;
+        color: black;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        
+        height: 9vh;
+    }
+    .btn{
+        height:6vh;
+        width: 8vw;
+        font-size: 25px;
+        border-radius: 60px;
+        background-color: rgb(7, 185, 7);
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+        border-color:rgb(7, 185, 7);
+        border-width: 5px;
+        border-style:solid;
+    }
+    .btn:hover{
+        /* background-color:white;
+        color: black; */
+        border-color:rgb(3, 146, 3);
+        
+    }
+    .note{
+        display: flex;
+        justify-content: center;
+        color:red;
+        font-size: 20px;
+        margin: 12px;
+        height: 4vh
+        
+        
+        
+    }
+    .footer{
+        /* display: flex;
+        justify-content: center; */
+        background-color:rgba(4, 248, 224, 0.774);
+        height: 7vh;
+        padding: 19px;
+    
+    }
+    .poweredby{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        font-size: 20px;
+        color: blue;
+    }
+    .department{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        color:blue;
+    }
+    .line{
+        color: blue;
+    }
+    .main{
+        background-color: rgb(250, 250, 153);
+    }
+  
+  
